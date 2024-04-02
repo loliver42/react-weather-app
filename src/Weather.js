@@ -56,7 +56,6 @@ export default function Weather() {
 
           <div className="col-6">
             <ul>
-              <li>Percipitation: 86%</li>
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {Math.round(weatherData.wind)} MPH</li>
             </ul>
