@@ -16,6 +16,10 @@
   font-weight: 100;
   margin: 20px 0 0 0;
 }
+.weather ul {
+  margin: 0;
+  padding: 0;
+}
 .weather li {
   font-size: 16px;
   font-weight: 100;
@@ -27,9 +31,20 @@
   font-size: 64px;
   color: rgb(33, 33, 33);
   line-height: 62px;
+  display: inline-block;
 }
 .weather img {
   height: 64px;
   margin-right: 10px;
-  display: inline-block;
+  float: left;
+  width: 64px;
+}
+.weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+  margin-left: 5px;
+  line-height: 1;
 }
