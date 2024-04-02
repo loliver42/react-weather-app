@@ -25,6 +25,7 @@
   font-weight: 100;
   line-height: 1.5;
   list-style: none;
+  text-transform: capitalize;
 }
 .weather .temperature {
   font-weight: 400;
@@ -45,6 +46,5 @@
   font-weight: 400;
   position: relative;
   top: -34px;
-  margin-left: 5px;
   line-height: 1;
 }
