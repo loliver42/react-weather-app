@@ -12,11 +12,14 @@ function App() {
 
         <footer>
           This project was coded by{" "}
-          <a href="" target="blank">
+          <a href="https://github.com/dashboard" target="blank">
             Lila Oliver
           </a>{" "}
           and is outsourced on{" "}
-          <a href="" target="blank">
+          <a
+            href="https://github.com/loliver42/react-weather-app/tree/master/src"
+            target="blank"
+          >
             GitHub
           </a>
         </footer>
